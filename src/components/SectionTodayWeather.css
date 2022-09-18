@@ -1,0 +1,73 @@
+/* Up */
+.up button{
+  /* color: var(--blanco); */
+  /* background-color: #6E707A; */
+  background-color: var(--BbagraunContaners);
+  border-radius: 0;
+  width: 161px;
+  height: 40px;
+  font-size: .9rem;
+  /* color: #E7E7EB; */
+  color: var(--blanco);
+  margin-bottom: 1.5rem;
+}
+
+.validacionFormulario{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.validacionFormulario span:hover{
+  cursor: pointer;
+  background-color: #6E707A;
+  border-radius: 100px;
+}
+.validacionFormulario span{
+  font-size: 1.5rem;
+  width: 2rem;
+}
+
+/* Center */
+.center img{
+  height: 202px;
+  margin: 5rem 0 1rem 0;
+  max-width: 360px;
+}
+
+
+/* Down */
+.down{
+  /* color: #A09FB1; */
+  color: var(--blanco);
+  font-size: 1rem;
+}
+
+.down .grades-today{
+  font-size: 5rem;
+  margin: 5rem 0;
+}
+
+.down .grades-today span{
+  font-size: 8rem;
+  color: var(--blanco);
+}
+
+.down .clima{
+  margin: 2rem 0;
+  font-size: 2.2rem;
+}
+
+.down .date{
+  margin: 2rem 0;
+}
+
+.down .date-place .place{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.down .date-place .place img{
+  width: 16px;
+  margin-right: 10px;
+}

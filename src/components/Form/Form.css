@@ -1,0 +1,20 @@
+#formulario form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+#formulario form .inputs {
+  display: flex;
+  flex-direction: column;
+  margin: .2rem 0;
+  width: 15rem;
+}
+#formulario form .inputs label{
+  margin-bottom: 5px;
+}
+
+#formulario form button{
+  margin-top: 20px;
+}

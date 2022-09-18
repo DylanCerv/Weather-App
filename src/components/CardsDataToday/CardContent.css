@@ -1,0 +1,70 @@
+.CardContent{
+  background: var(--bagraunContaners);
+  /* background-color: #1E213A; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.CardContent.Mult{
+  height: 180px;
+}
+
+.CardContent.Text{
+  height: 159px;
+}
+
+.Title{
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.CardContent .content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardContent .content .data-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.CardContent .content .data-content span{
+  font-size: 4rem;
+  margin-right: 5px;
+}
+
+.CardContent .content .icon-content{
+  padding: 5px 0;
+}
+
+/* Progress Bar */
+
+.progressBar {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 20px 0;
+	height: 20px;
+	width: 250px;
+}
+.progress{
+	background: linear-gradient(to left, #F2709C, #FF9472);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+  font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}

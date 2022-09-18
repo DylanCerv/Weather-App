@@ -1,0 +1,28 @@
+/* .cardDaysContainer{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 30px;
+  justify-items: center;
+} */
+.cardDaysContainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  justify-items: center;
+}
+@media screen and (min-width: 769px) {
+  .cardDaysContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .cardDaysContainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+}

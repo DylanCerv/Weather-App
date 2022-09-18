@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+  --bagraunContaners:rgba(0, 0, 0, 0.5);
+  --BbagraunContaners:rgba(110, 110, 110, 0.52);
+  --borderContaners: rgba(0, 0, 0, 0.55);
+  --blanco: #fff;
+}
+
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: var(--BbagraunContaners);
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--bagraunContaners);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:active{
+  background-color: var(--BbagraunContaners);
+}
+
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side{
+  background: var(--bagraunContaners);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.right-side{
+  width: 100%;
+}
+
+.cien{
+  padding: 5vh;
+}
+
+
+@media screen and (min-width: 769px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-side{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1468px) {
+  .App{
+    display: flex;
+    flex-direction: row;
+  }
+  .left-side{
+    width: 85vh;
+  }
+}

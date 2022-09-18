@@ -1,0 +1,25 @@
+#SectionTodayH{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.content{
+  margin-top: 20px;
+}
+@media screen and (min-width: 1025px) {
+  .content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .content{
+    display: flex;
+    flex-direction: column;
+  }
+  .content>.CardContent{
+    margin-top: 50px;
+  }
+}

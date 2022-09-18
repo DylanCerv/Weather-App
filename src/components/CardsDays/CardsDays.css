@@ -1,0 +1,43 @@
+#Card-day{
+  background: var(--bagraunContaners);
+  /* background-color: #1E213A; */
+  height: 177px;
+  width: 120px;
+  left: 905px;
+  top: 148px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Dias */
+.day{
+  /* margin-bottom: 5px; */
+}
+
+/* Imagen */
+.img img{
+  /* height: 62px; */
+  max-height: 60px;
+  height: 60px;
+  max-width: 110px;
+  left: 791px;
+  top: 195px;
+  border-radius: 0px;
+  margin: 2rem 0;
+}
+
+/* Grados */
+.grades{
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+.grades .grade-down{
+  color: #A09FB1;
+}
+.grades .grade-up,
+.grades .grade-down{
+  font-size: .83rem;
+}

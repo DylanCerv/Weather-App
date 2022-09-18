@@ -43,13 +43,22 @@
 }
 
 .down .grades-today{
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 5rem 0;
 }
 
 .down .grades-today span{
-  font-size: 8rem;
+  font-size: 5rem;
   color: var(--blanco);
+}
+
+@media (min-width: 480px) {
+  .down .grades-today{
+    font-size: 5rem;
+  }
+  .down .grades-today span{
+    font-size: 8rem;
+  }
 }
 
 .down .clima{
@@ -71,3 +80,4 @@
   width: 16px;
   margin-right: 10px;
 }
+

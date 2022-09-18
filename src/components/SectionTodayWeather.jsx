@@ -23,17 +23,17 @@ function SectionTodayWeather(props){
   }
   const imgWeatherToday = ()=>{
     if(apiToday.weather[0].description == 'light rain'){
-      return <img src="public/img/Weather Icons/rain.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/rain_w2sweg.svg" alt="" />
     }else if(apiToday.weather[0].description == 'scattered clouds'){
-      return <img src="public/img/Weather Icons/clear.svg" alt="" />
-    }else if(apiToday.weather[0].description == 'overcast clouds'){
-      return <img src="public/img/Weather Icons/cloud.svg" alt="" />
-    }else if(apiToday.weather[0].description == 'broken clouds'){
-      return <img src="public/img/Weather Icons/cloud.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/clear_yfoiyq.svg" alt="" />
+    }else if(apiToday.weather[0].description == 'overcast clouds' ||
+              apiToday.weather[0].description == 'broken clouds'){
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/cloud_s71ggt.svg" alt="" />
+
     }else if (apiToday.weather[0].description == 'light snow'){
-      return <img src="public/img/Weather Icons/snow.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464503/snow_unhrhm.svg" alt="" />
     }else {
-      return <img src="public/img/Weather Icons/haze.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/haze_wt7yv1.svg" alt="" />
     }
 
     // if(apiToday.weather[0].description == 'light rain'){
@@ -87,7 +87,7 @@ function SectionTodayWeather(props){
         <div className="date-place">
           <p className="date">Today - {apiToday == null ? '...' : timeStamp()}</p>
           <p className="place">
-            <img src="public/img/icons/place.svg" alt="" />
+            <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464514/place_mfu2cf.svg" alt="" />
             {apiToday == null ? 'Cargando...' : apiToday.sys.country} - {apiToday == null ? 'Cargando...' : apiToday.name}</p>
         </div>
       </div>

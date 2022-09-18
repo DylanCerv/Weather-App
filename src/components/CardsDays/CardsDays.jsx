@@ -22,23 +22,23 @@ function CardsDays(props){
 
   const imgWeather = ()=>{
     if(props.weather == 'light rain'){
-      return <img src="public/img/Weather Icons/rain.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/rain_w2sweg.svg" alt="" />
       
     }else if(props.weather == 'clear sky' || 
               props.weather == 'few clouds' || 
               props.weather == 'scattered clouds'){
-      return <img src="public/img/Weather Icons/clear.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/clear_yfoiyq.svg" alt="" />
 
     }else if(props.weather == 'overcast clouds' || 
               props.weather == 'broken clouds'){
-      return <img src="public/img/Weather Icons/cloud.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/cloud_s71ggt.svg" alt="" />
 
     }else if (props.weather == 'light snow'){
-      return <img src="public/img/Weather Icons/snow.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464503/snow_unhrhm.svg" alt="" />
 
     }
     else {
-      return <img src="public/img/Weather Icons/haze.svg" alt="" />
+      return <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663464502/haze_wt7yv1.svg" alt="" />
     }
     // if(props.weather == 'light rain'){
     //   return <img src="https://static.toiimg.com/thumb/msid-88745723,width-400,resizemode-4/88745723.jpg" alt="" />

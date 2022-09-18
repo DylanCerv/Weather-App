@@ -8,25 +8,25 @@ const backgoundHTML = (clima, )=>{
   console.log(clima)
 
   if (clima == 'light rain'){ //  DIA
-    html.style.backgroundImage = 'url(./../../../public/img/light rain.jpg)'
+    html.style.backgroundImage = 'url(https://res.cloudinary.com/dnnjctymr/image/upload/v1663464702/light_rain_ujgler.jpg)'
   }else if (clima == 'overcast clouds'){
-    html.style.backgroundImage = 'url(./../../../public/img/overcast clouds.jpg)'
+    html.style.backgroundImage = 'url(https://res.cloudinary.com/dnnjctymr/image/upload/v1663464664/overcast_clouds_ovbqwd.jpg)'
   }else if (clima == 'scattered clouds'){
-    html.style.backgroundImage = 'url(./../../../public/img/scattered clouds.jpg)'
+    html.style.backgroundImage = 'url(https://res.cloudinary.com/dnnjctymr/image/upload/v1663464637/scattered_clouds_x5mypd.jpg)'
   }else if (clima == 'few clouds'){
-    html.style.backgroundImage = 'url(./../../../public/img/few clouds.jpg)'
+    html.style.backgroundImage = 'url(https://res.cloudinary.com/dnnjctymr/image/upload/v1663464671/few_clouds_ogpqa2.jpg)'
   }else if (clima == 'clear sky'){
-    html.style.backgroundImage = 'url(./../../../public/img/clear sky.jpg)'
-  }else if (clima == ''){ // NOCHE
+    html.style.backgroundImage = 'url(https://res.cloudinary.com/dnnjctymr/image/upload/v1663464676/clear_sky_kogxrf.jpg)'
+  }else if (clima == 'a'){ // NOCHE
     html.style.backgroundImage = 'url(https://images.unsplash.com/photo-1542601098-8fc114e148e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)'
-  }else if (clima == ''){
+  }else if (clima == 'b'){
     html.style.backgroundImage = 'url(https://images.unsplash.com/photo-1548232979-6c557ee14752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)'
-  }else if (clima == ''){
+  }else if (clima == 'c'){
     html.style.backgroundImage = 'url(https://images.unsplash.com/photo-1572162522099-7a0c28d7691b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)'
-  }else if (clima == ''){
+  }else if (clima == 'd'){
     html.style.backgroundImage = 'url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80)'
   }else {
-    html.style.backgroundImage = 'url(./../../../public/img/none.jpg)'
+    html.style.backgroundImage = 'url(https://res.cloudinary.com/dnnjctymr/image/upload/v1663464656/none_oojj31.jpg)'
   }
 
   // if (clima == 'light rain'){ //  DIA

@@ -1,3 +1,6 @@
+#Card-day > *{
+  color: #fff;
+}
 #Card-day{
   background: var(--bagraunContaners);
   /* background-color: #1E213A; */

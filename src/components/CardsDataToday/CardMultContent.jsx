@@ -26,7 +26,11 @@ function CardMultContent(props){
           <span>{props.value}</span>{props.unidadMedida}
         </div>
         <div className="icon-content">
-            {!props.progressBar ? '' : 
+            {!props.progressBar ? 
+            <div className='container-dentro-iconImg'> 
+              <img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1663543801/wind-icon-icons_ouagk1.svg" alt="" />
+            </div>
+            : 
               <div className='progressBar container-dentro-iconImg'>
                 <div className="progress" style={style}>{props.progressBar}%</div>
               </div>

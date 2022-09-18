@@ -9,8 +9,8 @@ import Form from "./Form/Form.jsx"
 
 function SectionTodayWeather(props){
 
-  const months = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
-  const nameDays = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December']
+  const nameDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const [apiToday, setApiToday] = useState(null);
   const [formV, setFormV] = useState(false);
 

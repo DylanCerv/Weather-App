@@ -3,7 +3,7 @@ import "./CardsDays.css";
 
 function CardsDays(props){
 
-  const nameDaysEn = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+  const nameDaysEn = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const numberDay = new Date(props.day).getDay();
   const nameDay = nameDaysEn[numberDay];
 

@@ -1,3 +1,7 @@
+.CardContent > *{
+  color: #fff;
+}
+
 .CardContent{
   background: var(--bagraunContaners);
   /* background-color: #1E213A; */
@@ -12,9 +16,7 @@
   height: 180px;
 }
 
-.CardContent.Mult > *{
-  color: #fff;
-}
+
 
 .CardContent.Text{
   height: 159px;
